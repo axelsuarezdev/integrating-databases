@@ -1,0 +1,1 @@
+// Este endpoint debe sincronizar la informacion de Airtable en Algolia. Para ejecutar esta sincronización con frecuencia vamos a usar cron-jobs.org
