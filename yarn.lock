@@ -2,6 +2,42 @@
 # yarn lockfile v1
 
 
+"@algolia/client-common@5.10.0":
+  version "5.10.0"
+  resolved "https://registry.yarnpkg.com/@algolia/client-common/-/client-common-5.10.0.tgz#581632e05aa298ce21bbe53367ef703a9da93025"
+  integrity sha512-ppC2DePdASvbkq1QBHLod1PiZmDk8j0O1kf9BKttnkzDVIrp1EX+M1oYUbbcfDq+ZEY6oMxhEN3dc7iVD47WPQ==
+
+"@algolia/client-search@^5.10.0":
+  version "5.10.0"
+  resolved "https://registry.yarnpkg.com/@algolia/client-search/-/client-search-5.10.0.tgz#a2d4080d5e04af8942522da31bda7a9eb167e44e"
+  integrity sha512-UlLsIVMGWZdVXBW8PSWv0eg1mX7yOzz5EsJM/4eco9+sMyKCJXQGpiIq4tD752flRq+RGNXi+I4KoHFfamDWyg==
+  dependencies:
+    "@algolia/client-common" "5.10.0"
+    "@algolia/requester-browser-xhr" "5.10.0"
+    "@algolia/requester-fetch" "5.10.0"
+    "@algolia/requester-node-http" "5.10.0"
+
+"@algolia/requester-browser-xhr@5.10.0":
+  version "5.10.0"
+  resolved "https://registry.yarnpkg.com/@algolia/requester-browser-xhr/-/requester-browser-xhr-5.10.0.tgz#116cee6d4d7ee1f2addcf2ef8be464b10f49e1e2"
+  integrity sha512-wyg9kahHTL2lCfjKqWRS6BrqIhZyP8/mxvPASYzld5EbIUrNYYxtyJb5BhigcmWK6O6BEY5gDKv6OG5SLdZHOQ==
+  dependencies:
+    "@algolia/client-common" "5.10.0"
+
+"@algolia/requester-fetch@5.10.0":
+  version "5.10.0"
+  resolved "https://registry.yarnpkg.com/@algolia/requester-fetch/-/requester-fetch-5.10.0.tgz#1407026fe500bc0063bd42f5de79cad88c753794"
+  integrity sha512-xRuZcralCnA474JZIJrLDnWSfSFXuxnIkFrXccCdOPyLkcPHIdJO8qol/mLPVgJaGX7ALzd/ZgLiUt1Kv2TlgA==
+  dependencies:
+    "@algolia/client-common" "5.10.0"
+
+"@algolia/requester-node-http@5.10.0":
+  version "5.10.0"
+  resolved "https://registry.yarnpkg.com/@algolia/requester-node-http/-/requester-node-http-5.10.0.tgz#347aec4ae5875b9e5eb3aa41233908b6f3fcdb71"
+  integrity sha512-MSUrli1Q5PRTQmin/W3Wz5f4j0GOKSjy0Uaq0W9d7EeL79a6znGyQCMx1cMVZT/dm9y3awFgVAt1WgfA3iWQYg==
+  dependencies:
+    "@algolia/client-common" "5.10.0"
+
 "@next/env@14.2.15":
   version "14.2.15"
   resolved "https://registry.yarnpkg.com/@next/env/-/env-14.2.15.tgz#06d984e37e670d93ddd6790af1844aeb935f332f"
